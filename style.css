@@ -1,0 +1,135 @@
+html{
+    font-family: "Montserrat", serif;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+h2{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+h3{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+p{
+    margin: 0;
+    font-size: 12px;
+    color: rgba(97, 97, 97, 1);
+    padding-top: 8px;
+    padding-left: 12px;
+}
+
+#imagemtopo{
+    padding-top: 20px;
+    padding-left: 150px;
+    margin: 0;
+}
+
+
+#parte1{
+    background-color:#02A28F;
+    padding-left: 150px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+#retangulo-verde{
+    background-color: #02A28F;
+    color: #fff;
+    padding: 15px;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 8px 4px 8px 1px rgba(0, 0, 0, 0.2);
+    
+
+}
+
+#texto-posts1{
+    padding-top: 13px;
+    padding-right: 30px;
+    padding-left: 12px;
+}
+
+
+
+.parte2{ 
+    display: flex;
+    justify-content: center; /* centraliza os dois blocos horizontalmente */
+    gap: 40px; /* espaço entre imagem e posts populares */
+    padding: 50px 0; /* espaço vertical opcional */
+
+}
+
+.imagemtopo {
+    position: relative;
+    width: 80%; /* define largura fixa para manter o layout equilibrado */
+   
+
+}
+
+.imagemtopo img {
+    width: 70%;
+    height: auto;
+    display: block;
+}
+  
+.texto-sobre-imagem {
+    position: absolute;
+    bottom:55px; /* distância do topo */
+    left: 190px; /* distância da esquerda */
+    color: white;
+}
+
+.texto-sobre-imagem p {
+    padding: 0;
+    color: #fff;
+   
+}
+
+.texto-sobre-imagem h1 {
+    padding: 0;
+    margin: 5px 0 5px 0;
+   
+}
+
+.parte2-1{
+    padding-top: 28px;
+    padding-right: 150px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 350px;
+
+}
+
+.retangulo-posts{ 
+    display: flex;
+    box-shadow: 8px 4px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 12px;
+    
+}
+    
+
+.imagem-posts{ 
+    
+} 
+
