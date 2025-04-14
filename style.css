@@ -28,12 +28,39 @@ h3{
     font-weight: 700;
 }
 
+h4 {
+    margin: 10px;
+}
+
+
+
+h5{
+    color: rgba(2, 162, 143, 1);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+h6{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px;
+}
+
+
+
+
 p{
     margin: 0;
     font-size: 12px;
     color: rgba(97, 97, 97, 1);
     padding-top: 8px;
     padding-left: 12px;
+}
+
+#font-h6 {
+    margin-left: 10px;
 }
 
 #imagemtopo{
@@ -43,15 +70,19 @@ p{
 }
 
 
-#parte1{
+.parte1{
     background-color:#02A28F;
-    padding-left: 150px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-left: 210px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     margin: 0;
 }
 
-#retangulo-verde{
+.parte1 h1 {
+    margin: 10px;
+}
+
+.retangulo-verde{
     background-color: #02A28F;
     color: #fff;
     padding: 15px;
@@ -74,15 +105,13 @@ p{
     display: flex;
     justify-content: center; /* centraliza os dois blocos horizontalmente */
     gap: 40px; /* espaço entre imagem e posts populares */
-    padding: 50px 0; /* espaço vertical opcional */
+    padding: 20px 0 0 0; /* espaço vertical opcional */
 
 }
 
 .imagemtopo {
     position: relative;
     width: 80%; /* define largura fixa para manter o layout equilibrado */
-   
-
 }
 
 .imagemtopo img {
@@ -93,8 +122,10 @@ p{
   
 .texto-sobre-imagem {
     position: absolute;
-    bottom:55px; /* distância do topo */
-    left: 190px; /* distância da esquerda */
+    bottom: -90px;
+    left: 220px;
+
+    
     color: white;
 }
 
@@ -126,10 +157,169 @@ p{
     border-radius: 10px;
     padding: 12px;
     
+    
 }
+
+.parte3 {
+    display: flex;
+    justify-content: center; /* centraliza os dois blocos horizontalmente */
+    gap: 40px; /* espaço entre imagem e posts populares */
+    padding: 20px 0 0 0; /* espaço vertical opcional */
+    align-items: flex-start; /* garante que fiquem alinhados no topo */
     
 
-.imagem-posts{ 
+}
     
-} 
+.parte3 .retangulo-verde {
+    width: auto;
+    margin-left: 190px;
+    
+}
+
+
+.parte3-1 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* espaço entre imagem e posts populares */
+    padding: 20px 0 0 0; /* espaço vertical opcional */
+    margin-bottom: 30px;
+                
+}
+
+.boxs-itens {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 0px 0px 0px 125px;
+    margin-left: 65px;
+
+}
+
+.box-texto{
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 4px 8px 1px rgba(0,0,0,0.1);
+    padding: 8px;
+}
+
+.box-individual {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.list-category {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 10px;
+    
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    width: 30%; /* mesma proporção total do lado da imagem + populares */
+    padding-top: 20px;
+    padding-right: 170px;
+    padding-left: 20px;
+    
+}
+
+.category ul{
+    padding-left: 15px;
+    margin-top: 40px;
+}
+
+#barra-inferior{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
+    background-color: #02a28f;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+.retangulo-category{
+    background-color: #02A28F;
+    color: #fff;
+    padding: 15px;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 8px 4px 8px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+@media (max-width: 768px) {
+    /* Ajustes gerais para telas menores */
+
+    #parte1 {
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    .parte2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    #imagemtopo {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .parte2-1 {
+        padding-right: 0;
+        max-width: 100%;
+    }
+
+    .texto-sobre-imagem {
+        position: static;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .parte3 {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .parte3-1,
+    .category {
+        width: 100%;
+    }
+
+    .boxs-itens {
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .box-individual {
+        width: 100%;
+    }
+
+    .category ul {
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .retangulo-verde,
+    .retangulo-category {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    footer#barra-inferior {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
 
