@@ -1,51 +1,55 @@
 html{
+    padding: 0;
+    margin: 0;
     font-family: "Montserrat", serif;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
     font-size: 16px;
+    
 }
 
 body{
+    padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 2.25rem;
     color: #fff;
     
 }
 
 h2{
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #fff;
     font-weight: 700;
 }
 
 h3{
     margin: 0;
-    font-size: 14px;
+    font-size: 0.8rem;
     font-weight: 700;
 }
 
 h4 {
-    margin: 10px;
+    margin: 0.6rem;
 }
-
 
 
 h5{
     color: rgba(2, 162, 143, 1);
-    font-size: 14px;
+    font-size: 0.8rem;
     font-weight: 400;
-    margin: 10px;
+    margin: 0.6rem;
 }
 
 h6{
     color: rgba(0, 0, 0, 1);
     font-weight: 400;
-    font-size: 14px;
-    margin: 10px;
+    font-size: 0.8rem;
+    margin: 0.6rem;
 }
 
 
@@ -53,61 +57,70 @@ h6{
 
 p{
     margin: 0;
-    font-size: 12px;
+    font-size: 0.8rem;
     color: rgba(97, 97, 97, 1);
-    padding-top: 8px;
-    padding-left: 12px;
+    padding-top: 0.5rem;
+    padding-left: 0.75rem;
 }
 
 #font-h6 {
-    margin-left: 10px;
+    margin-left: 0.6rem;
 }
 
 #imagemtopo{
-    padding-top: 20px;
-    padding-left: 150px;
+    padding-top: 1.2rem;
+    padding-left: 9.3rem;
     margin: 0;
 }
 
 
 .parte1{
     background-color:#02A28F;
-    padding-left: 210px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-left: 13.1rem;
+    padding-top: 0.18rem;
+    padding-bottom: 0.18rem;
     margin: 0;
 }
 
 .parte1 h1 {
-    margin: 10px;
+    margin: 0.6rem;
 }
 
 .retangulo-verde{
     background-color: #02A28F;
     color: #fff;
-    padding: 15px;
+    padding: 0.93rem;
     margin: 0;
-    border-radius: 10px;
-    box-shadow: 8px 4px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0.6rem;
+    box-shadow: 0.5rem 0.25rem 0.5rem 0.06rem rgba(0, 0, 0, 0.2);
     
+}
 
+.retangulo-verde-recentes{
+    background-color: #02A28F;
+    color: #fff;
+    padding: 0.93rem;
+    margin: 0;
+    border-radius: 0.6rem;
+    box-shadow: 0.5rem 0.25rem 0.5rem 0.06rem rgba(0, 0, 0, 0.2);
+    
 }
 
 #texto-posts1{
-    padding-top: 13px;
-    padding-right: 30px;
-    padding-left: 12px;
+    padding-top: 0.81rem;
+    padding-right: 1.87rem;
+    padding-left: 0.75rem;
 }
-
 
 
 .parte2{ 
     display: flex;
     justify-content: center; /* centraliza os dois blocos horizontalmente */
-    gap: 40px; /* espaço entre imagem e posts populares */
-    padding: 20px 0 0 0; /* espaço vertical opcional */
+    gap: 2.5rem; /* espaço entre imagem e posts populares */
+    padding: 1.25rem 0 0 0; /* espaço vertical opcional */
 
 }
+
 
 .imagemtopo {
     position: relative;
@@ -120,42 +133,22 @@ p{
     display: block;
 }
   
-.texto-sobre-imagem {
-    position: absolute;
-    bottom: -90px;
-    left: 220px;
-
-    
-    color: white;
-}
-
-.texto-sobre-imagem p {
-    padding: 0;
-    color: #fff;
-   
-}
-
-.texto-sobre-imagem h1 {
-    padding: 0;
-    margin: 5px 0 5px 0;
-   
-}
 
 .parte2-1{
-    padding-top: 28px;
-    padding-right: 150px;
+    padding-top: 1.75rem;
+    padding-right: 9.37rem;
     display:flex;
     flex-direction: column;
-    gap: 20px;
-    max-width: 350px;
+    gap: 1.25rem;
+    max-width: 21.9rem;
 
 }
 
 .retangulo-posts{ 
     display: flex;
-    box-shadow: 8px 4px 8px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    padding: 12px;
+    box-shadow: 0.5rem 0.25rem 0.5rem 0.06rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.6rem;
+    padding: 0.75rem;
     
     
 }
@@ -163,16 +156,25 @@ p{
 .parte3 {
     display: flex;
     justify-content: center; /* centraliza os dois blocos horizontalmente */
-    gap: 40px; /* espaço entre imagem e posts populares */
-    padding: 20px 0 0 0; /* espaço vertical opcional */
+    gap: 2.5rem; /* espaço entre imagem e posts populares */
+    padding: 1.25rem 0 0 0; /* espaço vertical opcional */
     align-items: flex-start; /* garante que fiquem alinhados no topo */
-    
-
+  
 }
     
 .parte3 .retangulo-verde {
     width: auto;
-    margin-left: 190px;
+    margin-left: 11.87rem;
+    
+}
+
+.parte3 .retangulo-verde-recentes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* opcional, alinha verticalmente */
+    padding: 0 1rem;     /* opcional, espaço interno */
+    width: auto;
+    margin-left: 11.87rem;
     
 }
 
@@ -181,9 +183,9 @@ p{
     width: 70%;
     display: flex;
     flex-direction: column;
-    gap: 40px; /* espaço entre imagem e posts populares */
-    padding: 20px 0 0 0; /* espaço vertical opcional */
-    margin-bottom: 30px;
+    gap: 2.5rem; /* espaço entre imagem e posts populares */
+    padding: 1.25rem 0 0 0; /* espaço vertical opcional */
+    margin-bottom: 1.87rem;
                 
 }
 
@@ -192,15 +194,15 @@ p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-    padding: 0px 0px 0px 125px;
-    margin-left: 65px;
+    padding: 0px 0px 0px 7.8rem;
+    margin-left: 4rem;
 
 }
 
 .box-texto{
-    border-radius: 0 0 10px 10px;
-    box-shadow: 0px 4px 8px 1px rgba(0,0,0,0.1);
-    padding: 8px;
+    border-radius: 0 0 0.6rem 0.6rem;
+    box-shadow: 0px 0.25rem 0.5rem 0.06rem rgba(0,0,0,0.1);
+    padding: 0.5rem;
 }
 
 .box-individual {
@@ -221,105 +223,240 @@ p{
     display: flex;
     flex-direction: column;
     width: 30%; /* mesma proporção total do lado da imagem + populares */
-    padding-top: 20px;
-    padding-right: 170px;
-    padding-left: 20px;
+    padding-top: 1.25rem;
+    padding-right: 10.6rem;
+    padding-left: 1.25rem;
     
 }
 
 .category ul{
-    padding-left: 15px;
-    margin-top: 40px;
+    padding-left: 0.93rem;
+    margin-top: 2.5rem;
 }
 
 #barra-inferior{
-    font-size: 14px;
+    font-size: 0.87rem;
     text-align: center;
     font-weight: 500;
-    padding: 15px;
+    padding: 0.93rem;
     background-color: #02a28f;
     color: #fff;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 
 .retangulo-category{
     background-color: #02A28F;
     color: #fff;
-    padding: 15px;
+    padding: 0.93rem;
     margin: 0;
-    border-radius: 10px;
-    box-shadow: 8px 4px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0.6rem;
+    box-shadow: 0.05rem 0.025rem 0.05rem 0.06rem rgba(0, 0, 0, 0.2);
     
 }
 
 
-@media (max-width: 768px) {
-    /* Ajustes gerais para telas menores */
 
-    #parte1 {
-        padding-left: 20px;
+@media only screen and (max-width: 768px) {
+    /* Ajustes gerais para telas menores */
+    
+    html {
+        overflow-x: hidden;
+      }
+    
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .boxs-itens {
+
+        grid-template-columns: 1fr;
+        
+    }
+
+    .parte1 {
+        background-color: #02A28F;
         text-align: center;
+        padding: 0.5rem 1rem;
+        margin: 0;
     }
 
     .parte2 {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
-        padding: 20px;
+        padding: 1rem;
+        gap: 2rem;
     }
 
     #imagemtopo {
-        padding-left: 0;
         width: 100%;
-    }
-
-    .parte2-1 {
-        padding-right: 0;
         max-width: 100%;
+        height: auto;
+        padding: 0;
+        display: block;
+        margin: 0 auto;
     }
 
     .texto-sobre-imagem {
         position: static;
-        padding: 10px;
         text-align: center;
+        margin-top: -3rem;
+        padding: 0 1rem;
+    }
+
+    .parte2-1 {
+        padding: 1rem;
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .retangulo-posts {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        margin: 0 auto;
+        border-radius: 0.6rem;
+        box-shadow: 0.5rem 0.25rem 0.5rem 0.06rem rgba(0, 0, 0, 0.2);
     }
 
     .parte3 {
         flex-direction: column;
+        padding: 1rem;
+        gap: 2rem;
         align-items: center;
-        padding: 20px;
+    
     }
 
-    .parte3-1,
-    .category {
+    .parte3-1 {
         width: 100%;
+        padding: 0 1rem;
+        margin: 0;
+
     }
+
+
+    .parte3-1 .retangulo-verde {
+        width: 100%;
+        padding: 1rem;
+        margin: 0;
+
+    }
+
+    .parte3-1 .retangulo-verde-recentes {
+        width: 100%;
+        padding:1rem;
+        margin: 0;
+
+    }
+
+
+    .retangulo-verde {
+        margin: 0;
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        box-sizing: border-box;
+        
+    }
+
+    .retangulo-verde-recentes {
+        margin: 0;
+        width: 100%;
+        font-size: 0.5rem;
+        text-align: center;
+        box-sizing: border-box;
+        
+        
+    }
+
+    .retangulo-verde-recentes h2 {
+        margin: 0;
+        width: 100%;
+        text-align: start;
+        box-sizing: border-box;
+         
+    }
+
+    .retangulo-verde-recentes h3 {
+        margin: 0;
+        width: 100%;
+        text-align: end;
+        
+         
+    }
+
 
     .boxs-itens {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         padding: 0;
-        margin-left: 0;
+        margin: 0;
+        gap: 1.5rem;
     }
 
     .box-individual {
         width: 100%;
     }
 
-    .category ul {
+    .box-individual img {
         width: 100%;
-        padding-left: 15px;
+        height: auto;
+        display: block;
     }
 
-    .retangulo-verde,
+    .box-texto {
+        padding: 0.8rem;
+    }
+    
+    .category {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+
     .retangulo-category {
-        margin-left: 0;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1rem;
         text-align: center;
+    
     }
 
-    footer#barra-inferior {
-        font-size: 12px;
-        padding: 10px;
+    .category ul {
+        margin-top: 1rem;
     }
+
+    span {
+        color:#616161;
+    }
+
+
+
+
+
+
+
+
+
 }
 
+
+    
+
+    
